@@ -1,0 +1,25 @@
+.planosContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.planosContainer .tituloContainer {
+  font-size: 2.3em;
+  font-weight: bold;
+  color: rgb(29, 29, 29);
+}
+
+.planosArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.planosArea .iconArrowPlano {
+  font-size: 3rem;
+}

@@ -1,0 +1,54 @@
+.produto {
+  width: 230px;
+  height: 300px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+  background: rgba(233, 233, 233, 0.398);
+  border: 1px solid rgba(134, 134, 134, 0.184);
+  cursor: pointer;
+}
+
+.produto .titulo {
+  font-size: 1em;
+  color: rgba(52, 51, 51, 0.859);
+}
+
+.produto .row {
+  width: 100%;
+  height: 1px;
+  background: rgba(45, 45, 45, 0.765);
+}
+
+.produto img {
+  width: 130px;
+}
+
+.produto .status {
+  color: rgb(0, 204, 75);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.produto .precoDataArea {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+
+.produto .precoDataArea .preco {
+  color: rgba(34, 34, 34, 0.86);
+  font-weight: bold;
+}
+
+.produto .precoDataArea .data {
+  color: rgba(3, 13, 79, 0.671);
+  font-size: 0.8em;
+  font-weight: bold;
+}

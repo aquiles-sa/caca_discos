@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cuponContent {
+  background: rgba(29, 29, 29, 0.057);
+  padding: 1.5em;
+  width: 750px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 10px;
+  border: 1px solid rgba(29, 29, 29, 0.26);
+  border-radius: 10px;
+}
+
+.cuponContent .row {
+  width: 100%;
+  height: 2px;
+  background: rgba(29, 29, 29, 0.451);
+}
+
+.cuponContent h2 {
+  color: rgba(29, 29, 29, 0.709);
+  font-family: "Inter", sans-serif;
+}
+
+.cuponContent .categoryArea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.cuponContent .categoryArea .icon {
+  font-size: 4.3em;
+  color: rgba(29, 29, 29, 0.691);
+}
+
+.categoryInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.categoryInfo .title {
+  color: rgba(3, 13, 79, 0.729);
+  font-size: 1.5em;
+}
+
+.categoryInfo span {
+  font-size: 14px;
+  color: rgba(29, 29, 29, 0.704);
+}
+
+.cuponContent .bottomArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cuponContent .bottomArea .vencimento {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.cuponContent .bottomArea .vencimento span {
+  font-size: 15px;
+  color: rgba(29, 29, 29, 0.704);
+}
+
+.cuponContent .bottomArea button {
+  outline: none;
+  border: none;
+
+  background: rgb(3, 13, 79);
+  color: rgb(255, 197, 44);
+  font-weight: bold;
+
+  padding: 0.6em 1.5em;
+  cursor: pointer;
+}
+
+.checkMoreBtn {
+  outline: none;
+  border: none;
+
+  background: rgb(3, 13, 79);
+  color: rgb(255, 197, 44);
+  font-weight: bold;
+
+  padding: 0.6em 1.5em;
+  cursor: pointer;
+}

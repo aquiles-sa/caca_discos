@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.carrinhoContent {
+  background: rgba(29, 29, 29, 0.057);
+  padding: 1.5em;
+  width: 750px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 10px;
+  border: 1px solid rgba(29, 29, 29, 0.26);
+  border-radius: 10px;
+}
+
+.carrinhoContent h2 {
+  color: rgba(29, 29, 29, 0.798);
+}
+
+.row {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.395);
+}
+
+.carrinhoContent .carrinhoInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.carrinhoContent .carrinhoInfo .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.carrinhoContent .carrinhoInfo .content .sendedProduct {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(236, 34, 31);
+}
+
+.carrinhoContent .carrinhoInfo .content .titulo {
+  font-size: 1.3em;
+  color: rgba(29, 29, 29, 0.627);
+}
+
+.carrinhoContent .carrinhoInfo .devolucaoInfo {
+  color: rgb(3, 13, 79);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.carrinhoContent .dataRemoverArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carrinhoContent .dataRemoverArea span {
+  color: rgba(3, 13, 79, 0.561);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.carrinhoContent .dataRemoverArea button {
+  outline: none;
+  border: none;
+
+  background: rgb(3, 13, 79);
+  color: rgb(255, 197, 44);
+  font-weight: bold;
+
+  padding: 0.6em 1.5em;
+  cursor: pointer;
+}

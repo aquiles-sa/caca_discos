@@ -1,0 +1,8 @@
+.imagesSection {
+  display: flex;
+  justify-content: center;
+}
+
+.imagesSection img {
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+.descricaoContainer {
+  background: rgb(240, 240, 240);
+  width: 100%;
+  max-width: 386px;
+
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 8px;
+
+  padding: 1em;
+}
+
+.descricaoContainer .titulo {
+  font-size: 1.5em;
+  color: rgba(29, 29, 29, 0.706);
+  font-weight: bold;
+}
+
+.spanProp {
+  color: rgb(113, 113, 113);
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.statusArea {
+  margin: 15px 0;
+}
+
+.statusArea p {
+  margin: 5px 0;
+}
+
+.dataLeilaoArea {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}

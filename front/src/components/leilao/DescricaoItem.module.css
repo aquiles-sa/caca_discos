@@ -1,0 +1,29 @@
+.descricaoContainer {
+  background: rgb(240, 240, 240);
+  width: 100%;
+  max-width: 500px;
+
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+
+  padding: 1em;
+}
+
+.descricaoTitulo span {
+  color: rgb(62, 62, 62);
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.infoArea {
+  margin-top: 1em;
+}
+
+.infoArea p {
+  margin: 10px 0;
+}
+
+.infoArea p span {
+  color: rgb(62, 62, 62);
+  font-weight: bold;
+}

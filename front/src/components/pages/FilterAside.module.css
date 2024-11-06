@@ -1,0 +1,44 @@
+.filterAside {
+  width: 250px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+}
+
+.filterAside .filterToggle {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.filterSection {
+  margin-bottom: 20px;
+}
+
+.filterSection h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.filterSection label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.filterSection input[type="range"] {
+  width: 100%;
+}
+
+.filterApply {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}

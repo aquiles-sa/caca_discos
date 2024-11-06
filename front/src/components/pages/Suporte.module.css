@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  position: relative;
+}
+
+.suporteInfo {
+  background: #e9e9e9da;
+  padding: 1em;
+  width: 300px;
+  height: 230px;
+}
+
+.suporteInfo h3 {
+  font-size: 1.8em;
+  color: rgba(29, 29, 29, 0.797);
+}
+
+.suporteInfo .row {
+  width: 100%;
+  height: 2px;
+  background: rgba(29, 29, 29, 0.471);
+  margin: 10px 0;
+}
+
+.suporteInfo p {
+  font-size: 0.9em;
+  color: rgba(29, 29, 29, 0.546);
+}
+
+.conversaBox {
+  background: #ededed;
+  border: 1px solid #00000021;
+  padding: 1em;
+
+  min-width: 700px;
+  height: 500px;
+}
+
+.conversaBox aside {
+  display: flex;
+  gap: 10px;
+}
+
+.conversaBox .iconBotArea {
+  background: rgb(3, 13, 79);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 35px;
+  height: 35px;
+
+  border-radius: 0 1em 1em 1em;
+}
+
+.messageBot {
+  background: rgb(3, 13, 79);
+  padding: 0.8em;
+
+  max-width: 450px;
+  border-radius: 0 1em 1em 1em;
+}
+
+.messageBot p {
+  color: rgb(255, 197, 44);
+  font-size: 0.9em;
+}
+
+.conversaBox .iconBotArea .icon {
+  color: rgb(255, 197, 44);
+  font-size: 1.4em;
+}
+
+.conversaBox .userInputArea {
+  display: flex;
+  gap: 10px;
+
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+
+.userInputArea input {
+  outline: none;
+  border: none;
+
+  background: rgb(255, 197, 44);
+  border-radius: 1em 0 1em 1em;
+
+  color: rgba(0, 0, 0, 0.723);
+  padding: 0 1em;
+}
+
+.conversaBox .iconUserArea {
+  background: rgb(255, 197, 44);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 35px;
+  height: 35px;
+
+  border-radius: 1em 0 1em 1em;
+}
+
+.conversaBox .iconUserArea .icon {
+  color: rgb(3, 13, 79);
+  font-size: 1.4em;
+}

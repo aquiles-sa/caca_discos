@@ -1,0 +1,62 @@
+.footer {
+  background: rgba(0, 0, 0, 0.816);
+  color: rgb(255, 197, 44);
+  border-top: 5px solid rgb(255, 197, 44);
+
+  padding: 3em;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.pixelify {
+  text-transform: uppercase;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.9rem;
+
+  text-decoration: none;
+  color: rgb(255, 197, 44);
+}
+
+.infoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.infoArea {
+  display: flex;
+}
+
+.infoArea span {
+  margin-left: 0.2em;
+}
+
+.aboutUs p {
+  color: rgb(193, 193, 193);
+  margin: 1em 0;
+  font-size: 13px;
+  width: 400px;
+}
+
+.iconsArea {
+  display: flex;
+  gap: 25px;
+}
+
+.iconsArea .icon {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

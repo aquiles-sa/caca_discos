@@ -1,0 +1,38 @@
+.title {
+  color: rgb(3, 13, 79);
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.filterAside {
+  margin-top: 1em;
+}
+
+.productsArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productsArea .circlesArea {
+  display: flex;
+  align-self: self-end;
+  gap: 10px;
+}
+
+.circle {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 100%;
+  background: #4d4d4d;
+}
+
+.circle:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,110 @@
+.productBox {
+  border: 1px solid rgba(29, 29, 29, 0.297);
+  width: 260px;
+  height: 310px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+  margin: 1em;
+  position: relative;
+}
+
+.productBox .favCart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+
+.productBox .favCart .heartArea {
+  background: rgb(236, 34, 31);
+  padding: 0.2em;
+  width: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.productBox .favCart .heart {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.productBox .favCart .cartArea {
+  background: rgb(255, 197, 44);
+  padding: 0.2em;
+  width: 35px;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.productBox .favCart .cart {
+  color: rgb(3, 13, 79);
+  font-size: 1.5em;
+  width: 30px;
+}
+
+.productInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.productInfo .title {
+  color: rgba(29, 29, 29, 0.674);
+  margin: 1em 0;
+
+  font-size: 13px;
+  text-align: center;
+  font-weight: 100;
+
+  width: 250px;
+  padding: 0 2em;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.productInfo .price {
+  color: rgb(255, 197, 44);
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 1em;
+  font-family: "Inter", sans-serif;
+}
+
+.productInfo img {
+  width: 130px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  border-radius: 20px;
+
+  background: rgb(255, 197, 44);
+  color: rgb(3, 13, 79);
+  font-weight: bold;
+
+  cursor: pointer;
+  padding: 0.5em 1.5em;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background: rgb(3, 13, 79);
+  color: rgb(255, 197, 44);
+}

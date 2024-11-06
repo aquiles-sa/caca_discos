@@ -1,0 +1,58 @@
+.formaEntregaContainer {
+  display: flex;
+  align-items: baseline;
+  margin-top: 1em;
+  gap: 5rem;
+}
+
+.asideContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.asideContent span {
+  font-size: 1.6em;
+  color: rgba(29, 29, 29, 0.846);
+}
+
+.prosseguirBtn {
+  background: rgb(255, 197, 44);
+  color: rgb(3, 13, 79);
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+.resumoTitulo {
+  font-size: 1.6em;
+  color: rgba(29, 29, 29, 0.846);
+}
+
+.resumoArea {
+  background: rgb(237, 237, 237);
+  width: 300px;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  border: 1px solid rgb(204, 204, 204);
+  margin-top: 2em;
+}
+
+.resumoArea div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resumoArea .row {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.465);
+}
+
+.resumoArea .preco {
+  color: rgb(255, 197, 44);
+  font-weight: bold;
+}

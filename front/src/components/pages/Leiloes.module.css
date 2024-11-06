@@ -1,0 +1,47 @@
+.containerLeiloes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headerLeilao {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0;
+
+  width: 93.5%;
+}
+
+.headerLeilao ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.headerLeilao ul li a {
+  text-decoration: none;
+  color: rgb(3, 13, 79);
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+#linkAtual {
+  color: rgb(255, 197, 44);
+}
+
+#linkAtual:hover {
+  color: rgb(3, 13, 79);
+}
+
+.headerLeilao ul li a:hover {
+  background-color: rgb(255, 197, 44);
+  color: rgb(3, 13, 79);
+  padding: 10px;
+  border-radius: 1em;
+}
+
+.produtosArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+}

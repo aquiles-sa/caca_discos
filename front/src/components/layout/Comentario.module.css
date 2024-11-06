@@ -1,0 +1,51 @@
+.contentBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 18px;
+  background: #f8f8f8;
+  border: 1px solid rgba(29, 29, 29, 0.203);
+
+  width: 380px;
+  padding: 1em;
+}
+
+.icon {
+  font-size: 1.3em;
+}
+
+.textsArea span {
+  color: rgb(255, 197, 44);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.textsArea p {
+  color: rgba(29, 29, 29, 0.606);
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.profileArea {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 10px;
+}
+
+.profileArea .nameArea span {
+  display: block;
+}
+
+.profileArea .name {
+  color: rgba(29, 29, 29, 0.606);
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.profileArea .date {
+  color: rgba(29, 29, 29, 0.342);
+  font-weight: lighter;
+  font-size: 0.95em;
+}

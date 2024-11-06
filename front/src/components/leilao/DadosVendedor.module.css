@@ -1,0 +1,31 @@
+.content {
+  background: rgb(240, 240, 240);
+  width: 100%;
+  max-width: 386px;
+
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 8px;
+
+  margin-top: 30px;
+  padding: 1em;
+}
+
+.content .titulo {
+  font-size: 1.5em;
+  color: rgba(29, 29, 29, 0.706);
+  font-weight: bold;
+}
+
+.content .informacoes {
+  margin: 15px 0;
+}
+
+.content .informacoes p {
+  margin: 5px 0;
+}
+
+.content .informacoes .targetInfo {
+  color: rgb(113, 113, 113);
+  font-weight: bold;
+  font-size: 0.9em;
+}

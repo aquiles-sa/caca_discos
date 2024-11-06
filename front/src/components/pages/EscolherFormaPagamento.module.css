@@ -1,0 +1,120 @@
+.allContent {
+  position: relative;
+}
+
+.titleEscolherFormaPagamento {
+  font-size: 1.6em;
+  color: rgba(29, 29, 29, 0.846);
+}
+
+.asideContentPagamento {
+  background: rgb(237, 237, 237);
+  width: 600px;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  border: 1px solid rgb(204, 204, 204);
+  margin-top: 2em;
+}
+
+.asideContentPagamento .row {
+  width: 100%;
+  height: 1px;
+  background: rgb(62, 62, 62);
+}
+
+.pagamentoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opcaoPagamento {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 10px;
+}
+
+.opcaoPagamento div {
+  background: rgb(3, 13, 79);
+  padding: 0.4em;
+  border-radius: 5px;
+}
+
+.opcaoPagamento div .pagamentoIcon {
+  color: rgb(255, 197, 44);
+}
+
+.adicionarCartao {
+  color: rgba(49, 74, 240, 0.652);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.adicionarCartao:hover {
+  text-decoration: underline;
+}
+
+.presenteArea {
+  margin: 1em 0;
+}
+
+.presenteArea .labelPresente {
+  margin-left: 5px;
+}
+
+.finalizarCompraBtn {
+  padding: 0.7rem 3em;
+  border: none;
+  outline: none;
+
+  color: rgb(3, 13, 79);
+  font-weight: bold;
+  background: rgb(255, 197, 44);
+
+  cursor: pointer;
+}
+
+.resumoContent {
+  position: absolute;
+  top: 135px;
+  right: 150px;
+}
+
+.resumoTitulo {
+  font-size: 1.6em;
+  color: rgba(29, 29, 29, 0.846);
+}
+
+.resumoArea {
+  background: rgb(237, 237, 237);
+  width: 300px;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  border: 1px solid rgb(204, 204, 204);
+  margin-top: 2em;
+}
+
+.resumoArea div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resumoArea .row {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.465);
+}
+
+.resumoArea .preco {
+  color: rgb(255, 197, 44);
+  font-weight: bold;
+}

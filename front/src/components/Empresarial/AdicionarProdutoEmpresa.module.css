@@ -1,0 +1,177 @@
+.cadastrarLoteContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cadastrarLoteContainer aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+  margin-top: 1em;
+  width: 300px;
+}
+
+.tituloArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.tituloArea label {
+  margin-bottom: 5px;
+}
+
+.tituloLabel {
+  color: rgba(29, 29, 29, 0.792);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+input {
+  background: rgba(157, 157, 157, 0.258);
+  outline: none;
+  border: none;
+  padding: 0.2em;
+}
+
+.condicaoOpcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.condicaoOpcoes label {
+  margin-left: 5px;
+}
+
+.condicaoOpcoes input[type="text"] {
+  margin-left: 1.2rem;
+}
+
+.duasSecoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.duasSecoes .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.duasSecoes input {
+  width: 130px;
+  margin-top: 7px;
+}
+
+.estimativaValorArea input {
+  width: 100%;
+  margin-top: 7px;
+}
+
+.valorInicialArea label {
+  display: block;
+}
+
+.valorInicialArea input {
+  width: 100%;
+  margin-top: 7px;
+}
+
+.aceitarTermoArea {
+  display: flex;
+  gap: 0.6em;
+}
+
+.aceitarTermoArea p {
+  font-size: 0.9em;
+  color: rgba(29, 29, 29, 0.792);
+}
+
+.cadastrarLoteBtn {
+  outline: none;
+  border: none;
+  border-radius: 0.7em;
+
+  background: rgb(3, 13, 79);
+  color: rgb(237, 238, 244);
+  text-transform: uppercase;
+
+  padding: 1em;
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.colocarFotoArea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.colocarFotoArea label {
+  outline: none;
+  border: none;
+  border-radius: 0.7em;
+
+  font-size: 1.4em;
+  color: rgb(103, 103, 103);
+  font-weight: bold;
+
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.visualizacaoImagem {
+  background: rgb(236, 236, 236);
+  border: 1px solid rgb(198, 198, 198);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+  padding: 0.5em;
+}
+
+.visualizacaoImagem .row {
+  width: 100%;
+  height: 1px;
+  background: rgb(31, 31, 31);
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #b3b3b3;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.popup-icon {
+  color: #3b82f6;
+  font-size: 24px;
+  margin-right: 8px;
+}

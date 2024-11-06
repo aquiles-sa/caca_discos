@@ -1,0 +1,118 @@
+.generalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+#asideContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+#asideContainer .imageArea {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#asideContainer .imageArea img {
+  width: 400px;
+}
+
+.valoresInfoContainer .valoresArea {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.valoresInfoContainer .valoresArea .titulo {
+  color: rgb(62, 62, 62);
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.valoresInfoContainer .valoresArea p {
+  color: rgb(62, 62, 62);
+  font-weight: bold;
+}
+
+.valoresInfoContainer .valoresArea .preco {
+  color: rgb(255, 197, 44);
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.valoresInfoContainer .row {
+  width: 387px;
+  height: 1px;
+  background: rgb(62, 62, 62);
+  margin: 1.2em 0;
+}
+
+.primeirosValores {
+  margin-top: 1rem;
+}
+
+.primeirosValores button:first-child {
+  margin-right: 3rem;
+}
+
+.valoresInfoContainer button {
+  border: none;
+
+  width: 170px;
+  padding: 0.6em;
+  cursor: pointer;
+
+  color: rgb(62, 62, 62);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.escolherValorArea {
+  margin: 1.4rem 0;
+  display: flex;
+}
+
+.iconesArea {
+  margin: 0 1rem;
+}
+
+.icones {
+  display: block;
+  cursor: pointer;
+}
+
+.programarOfertaArea .programarOfertaContent {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.passarProdutosArea {
+  margin: 20px 0;
+  display: flex;
+  gap: 80px;
+}
+
+.passarProdutosArea .secaoIcones {
+  display: flex;
+  gap: 10px;
+}
+
+.passarProdutosArea .iconeBox {
+  padding: 0.3em 1em;
+  background: rgb(206, 236, 239);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.passarProdutosArea .icone {
+  color: rgba(29, 29, 29, 0.706);
+  font-size: 1.2em;
+}

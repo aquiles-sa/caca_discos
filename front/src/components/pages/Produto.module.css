@@ -1,0 +1,299 @@
+.topContainer {
+  display: flex;
+  justify-content: baseline;
+  gap: 100px;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.productTargetBox {
+  border: 1px solid rgba(29, 29, 29, 0.297);
+  width: 330px;
+  height: 310px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+  margin: 1em;
+  position: relative;
+
+  background: #d6d6d634;
+  margin-bottom: 2rem;
+}
+
+.targetFavCart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+
+.productTargetBox .targetFavCart .targetHeartArea {
+  background: rgb(236, 34, 31);
+  padding: 0.2em;
+  width: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.productTargetBox .targetFavCart .targetCartArea {
+  background: rgb(255, 197, 44);
+  padding: 0.2em;
+  width: 35px;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.otherProducts .targetFavCart .targetHeartArea {
+  background: rgb(236, 34, 31);
+  padding: 0.2em;
+
+  width: 25px;
+  height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.otherProducts .targetFavCart .targetCartArea {
+  background: rgb(255, 197, 44);
+  padding: 0.2em;
+
+  width: 25px;
+  height: 24px;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.targetHeart {
+  color: #fff;
+  font-size: 1em;
+}
+
+.targetCart {
+  color: rgb(3, 13, 79);
+  font-size: 1em;
+}
+
+.productTargetBox img {
+  width: 250px;
+}
+
+.otherProducts {
+  display: flex;
+}
+
+.otherProducts div {
+  border: 1px solid rgba(29, 29, 29, 0.297);
+  width: 150px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+  margin: 1em;
+  position: relative;
+
+  background: #d6d6d634;
+  cursor: pointer;
+}
+
+.otherProducts div img {
+  width: 100px;
+}
+
+.checkMoreBtn {
+  outline: none;
+  border: none;
+
+  background: rgb(3, 13, 79);
+  color: rgb(255, 197, 44);
+  font-weight: bold;
+  width: 333px;
+
+  padding: 0.6em 1.5em;
+  cursor: pointer;
+}
+
+.storeInfo span,
+.storeInfo .checkMoreBtn {
+  margin-left: 15px;
+}
+
+.storeInfo span {
+  color: rgba(29, 29, 29, 0.875);
+  font-size: 1.2em;
+}
+
+.infoProduct {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-top: 15px;
+}
+
+.productTitleArea span {
+  font-size: 0.9em;
+}
+
+.infoProduct .productTitleArea h3 {
+  color: #1d1d1da5;
+  font-size: 2.5em;
+}
+
+.priceArea,
+.freteArea {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.priceArea .price {
+  color: #ffc52c;
+  font-size: 2.7em;
+  font-weight: bold;
+}
+
+.priceArea span {
+  color: rgb(65, 123, 67);
+  font-size: 1em;
+}
+
+.priceArea a {
+  color: rgb(0, 165, 182);
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.freteTitle {
+  color: rgba(29, 29, 29, 0.758);
+  font-size: 1.1em;
+}
+
+.digiteCep {
+  color: rgb(3, 13, 79);
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.quantidadeArea label {
+  color: rgb(0, 165, 182);
+  margin-right: 10px;
+}
+
+.quantidadeArea select {
+  color: rgb(20, 20, 20);
+  background: rgb(230, 230, 230);
+
+  outline: none;
+  border: 1px solid rgb(29, 29, 29);
+
+  padding: 0 5px;
+}
+
+.addCupom {
+  color: rgb(3, 23, 155);
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.descricaoArea span {
+  color: rgba(29, 29, 29, 0.817);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.descricaoArea p {
+  margin-top: 10px;
+  color: rgba(29, 29, 29, 0.485);
+}
+
+.btnArea button,
+.btnArea .buyBtn {
+  width: 190px;
+  padding: 0.8em;
+}
+
+.btnArea .buyBtn {
+  outline: none;
+  border: none;
+
+  background: rgb(255, 197, 44);
+  color: rgb(3, 13, 79);
+  font-weight: bold;
+
+  cursor: pointer;
+  margin-right: 1.5em;
+  text-decoration: none;
+}
+
+.cartBtn {
+  outline: none;
+  border: none;
+
+  background: rgb(3, 13, 79);
+  color: rgb(255, 197, 44);
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.bottomContainer {
+  margin-top: 3.5em;
+  margin-left: 13px;
+}
+
+.bottomContainer .title {
+  color: rgba(29, 29, 29, 0.762);
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.commentsArea {
+  display: flex;
+  gap: 20px;
+  margin-top: 1em;
+}
+
+.arrowArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 3.3em;
+  color: rgba(29, 29, 29, 0.762);
+  cursor: pointer;
+}
